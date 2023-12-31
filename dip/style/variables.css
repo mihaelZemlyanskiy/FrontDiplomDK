@@ -1,0 +1,24 @@
+:root {
+    --color-one: #9dc9e5;
+    --color-two: #2aabe4;
+    --color-three: #ffcd23;
+    --color-four: #33393d;
+    --color-five: #666b6e;
+    --color-shadow:#33393da9;
+
+    --color-btn-hover:#cfa71f;
+    --color-red:#dd1717;
+}
+*{
+    font-family: monospace;
+}
+*::-webkit-scrollbar{
+    width: 10px;
+}
+*::-webkit-scrollbar-track {
+    background-color: var(--color-five);
+}
+*::-webkit-scrollbar-thumb {
+    background-color:var(--color-three);
+    box-shadow: inset 0 0 6px var(--color-three);  
+}

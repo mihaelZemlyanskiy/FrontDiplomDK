@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-one);
+}
+.form_auth{
+    padding: 60px 35px;
+    background-color: var(--color-two);
+    border-radius: 15px;
+
+    box-shadow: 0px 5px 25px 5px var(--color-shadow);
+}
+.form_auth form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.form_auth .title{
+    font-size: 24px;
+    font-weight: bold;
+}
+input{
+    font-size: 20px;
+}
+input[name="login"],input[name="pass"]{
+    border: none;
+    outline: none;
+    padding: 7px 21px;
+    border-radius: 5px;
+    width: calc(100% - 45px);
+}
+input[type="submit"]{
+    background-color: var(--color-three);
+    border: none;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+input[type="submit"]:active{
+    
+    box-shadow: 0px 0px 15px 2px var(--color-shadow) inset;
+}
